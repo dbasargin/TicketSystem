@@ -63,11 +63,11 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Motorwerk", 24F, ((System.Drawing.FontStyle)(((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic) 
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, ((System.Drawing.FontStyle)(((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic) 
                 | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(200, 25);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(398, 24);
+            this.label1.Size = new System.Drawing.Size(389, 37);
             this.label1.TabIndex = 3;
             this.label1.Text = "Create A New Performer";
             // 
@@ -103,7 +103,7 @@
             // 
             // BtnSubmitPerformer
             // 
-            this.BtnSubmitPerformer.Location = new System.Drawing.Point(721, 386);
+            this.BtnSubmitPerformer.Location = new System.Drawing.Point(737, 257);
             this.BtnSubmitPerformer.Name = "BtnSubmitPerformer";
             this.BtnSubmitPerformer.Size = new System.Drawing.Size(147, 45);
             this.BtnSubmitPerformer.TabIndex = 7;
@@ -126,6 +126,7 @@
             this.Controls.Add(this.txtPerformerInfo);
             this.Controls.Add(this.txtPerformerUrl);
             this.Controls.Add(this.txtPerformerName);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "FrmCreatePerformer";
             this.Text = "Create A Performer";

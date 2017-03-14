@@ -114,5 +114,12 @@ namespace TicketSystem
             TicketSystem newHomePage = new TicketSystem();
             ChangeChildForm(newHomePage);
         }
+
+        private void performersToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmEditPerfomers editPerformers = new FrmEditPerfomers();
+            editPerformers.Show();
+           
+        }
     }
 }

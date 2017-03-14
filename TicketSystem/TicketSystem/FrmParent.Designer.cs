@@ -37,6 +37,8 @@
             this.BtnCreatePerformer = new System.Windows.Forms.ToolStripMenuItem();
             this.BtnCreateVenue = new System.Windows.Forms.ToolStripMenuItem();
             this.homeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.editToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.performersToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -62,7 +64,8 @@
             // btnMenu
             // 
             this.btnMenu.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.createEventToolStripMenuItem});
+            this.createEventToolStripMenuItem,
+            this.editToolStripMenuItem});
             this.btnMenu.Name = "btnMenu";
             this.btnMenu.Size = new System.Drawing.Size(50, 22);
             this.btnMenu.Text = "Menu";
@@ -75,7 +78,7 @@
             this.BtnCreatePerformer,
             this.BtnCreateVenue});
             this.createEventToolStripMenuItem.Name = "createEventToolStripMenuItem";
-            this.createEventToolStripMenuItem.Size = new System.Drawing.Size(108, 22);
+            this.createEventToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.createEventToolStripMenuItem.Text = "Create";
             // 
             // BtnCreateEvent
@@ -113,6 +116,21 @@
             this.homeToolStripMenuItem.Text = "Home";
             this.homeToolStripMenuItem.Click += new System.EventHandler(this.homeToolStripMenuItem_Click);
             // 
+            // editToolStripMenuItem
+            // 
+            this.editToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.performersToolStripMenuItem});
+            this.editToolStripMenuItem.Name = "editToolStripMenuItem";
+            this.editToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.editToolStripMenuItem.Text = "Edit";
+            // 
+            // performersToolStripMenuItem
+            // 
+            this.performersToolStripMenuItem.Name = "performersToolStripMenuItem";
+            this.performersToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.performersToolStripMenuItem.Text = "Performers";
+            this.performersToolStripMenuItem.Click += new System.EventHandler(this.performersToolStripMenuItem_Click);
+            // 
             // FrmParent
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -146,5 +164,7 @@
         private System.Windows.Forms.ToolStripMenuItem BtnCreatePerformer;
         private System.Windows.Forms.ToolStripMenuItem BtnCreateVenue;
         private System.Windows.Forms.ToolStripMenuItem homeToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem editToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem performersToolStripMenuItem;
     }
 }
